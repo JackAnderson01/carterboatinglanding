@@ -27,7 +27,10 @@ const HowItWorks = () => {
     },
   ];
   return (
-    <div className="w-full h-auto bg-[#F8F8F8] flex flex-col gap-12 justify-start items-center px-6 md:px-8 lg:px-28 py-6 lg:py-20 ">
+    <div
+      id="how-it-works"
+      className="w-full h-auto bg-[#F8F8F8] flex flex-col gap-12 justify-start items-center px-6 md:px-8 lg:px-28 py-6 lg:py-20 "
+    >
       <h2 className="text-[45px] font-bold tracking-tight leading-tight">
         How It Works?
       </h2>

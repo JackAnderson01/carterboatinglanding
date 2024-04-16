@@ -5,7 +5,7 @@ import { BiSolidPhoneCall } from "react-icons/bi";
 
 const ContactUs = () => {
   return (
-    <div className="w-full py-6 px-4" id="contact">
+    <div id="contact-us" className="w-full py-6 px-4">
       <div className="mx-auto w-full md:w-[80%] xl:w-[70%] flex lg:flex-row flex-col justify-start items-start h-auto md:h-[653px]">
         <div className="w-full lg:w-1/2 h-full bg-[#373737] rounded-t-[22px] md:rounded-t-[0px] lg:rounded-s-[22px] px-8 lg:px-12 flex flex-col gap-y-10 py-8 md:pt-14">
           <div className="flex flex-col gap-y-6">
