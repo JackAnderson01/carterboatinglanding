@@ -4,7 +4,7 @@ import { HeroMockup } from "../assets/export";
 
 const Hero = () => {
   return (
-    <div className="w-full bg-image h-auto lg:h-screen px-6 md:px-8 lg:px-28">
+    <div className="w-full bg-image h-auto xl:h-screen px-6 md:px-8 lg:px-28">
       <Navbar />
       <div className="w-full h-auto flex flex-col gap-4 my-10 justify-start items-start lg:items-center">
         <div className="w-auto flex gap-3 justify-center items-center">
