@@ -3,7 +3,7 @@ import { Apple, Google, OutroMockup } from "../assets/export";
 
 const Outro = () => {
   return (
-    <div className="w-full h-auto flex justify-center mt-32 items-center relative">
+    <div className="w-full h-auto flex justify-center mt-6 lg:mt-32 items-center relative">
       <span className="w-full h-28 absolute bottom-0 left-0 bg-[#F8F8F8]"></span>
       <div className="w-[98%] lg:w-[70%] px-6 lg:px-12 h-56 rounded-2xl z-[1000] flex justify-start items-end bg-[#1A5091]">
         <div className="hidden lg:block lg:w-1/4">
