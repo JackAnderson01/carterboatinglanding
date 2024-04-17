@@ -6,8 +6,8 @@ import { BiSolidPhoneCall } from "react-icons/bi";
 const ContactUs = () => {
   return (
     <div id="contact-us" className="w-full py-6 px-4">
-      <div className="mx-auto w-full md:w-[80%] xl:w-[70%] flex lg:flex-row flex-col justify-start items-start h-auto md:h-[653px]">
-        <div className="w-full lg:w-1/2 h-full bg-[#373737] rounded-t-[22px] md:rounded-t-[0px] lg:rounded-s-[22px] px-8 lg:px-12 flex flex-col gap-y-10 py-8 md:pt-14">
+      <div className="mx-auto w-full md:w-[80%] xl:w-[70%] flex lg:flex-row flex-col justify-start items-start h-auto lg:h-[653px]">
+        <div className="w-full lg:w-1/2 h-full bg-[#373737] rounded-t-[22px] lg:rounded-t-[0px] lg:rounded-l-[22px] px-8 lg:px-12 flex flex-col gap-y-10 py-8 md:pt-14">
           <div className="flex flex-col gap-y-6">
             <h2 className="text-white font-medium text-[32px] leading-[35px]">
               Let’s Connect and <br /> Create Together!
@@ -47,7 +47,7 @@ const ContactUs = () => {
             </div>
           </div>
         </div>
-        <div className="w-full lg:w-1/2 bg-[#F9FAFA] h-full rounded-b-[22px] md:rounded-b-[0px] lg:rounded-r-[22px] flex flex-col justify-center items-start gap-y-8 px-8 lg:px-14 py-6 md:py-0">
+        <div className="w-full lg:w-1/2 bg-[#F9FAFA] h-full rounded-b-[22px]  lg:rounded-tr-[22px] lg:rounded-b-[0px] lg:rounded-br-[22px] flex flex-col justify-center items-start gap-y-8 px-8 lg:px-14 py-6 lg:py-0">
           <h2 className="text-black text-[32px] font-semibold leading-[48px]">
             Closer Than a Click Away
           </h2>

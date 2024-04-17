@@ -29,13 +29,13 @@ const HowItWorks = () => {
   return (
     <div
       id="how-it-works"
-      className="w-full h-auto bg-[#F8F8F8] flex flex-col gap-12 justify-start items-center px-6 md:px-8 lg:px-28 py-6 lg:py-20 "
+      className="w-full h-auto bg-[#F8F8F8] flex flex-col gap-12 justify-start items-center px-6 md:px-8 lg:px-20 xl:px-28 py-6 lg:py-20 "
     >
       <h2 className="text-[45px] font-bold tracking-tight leading-tight">
         How It Works?
       </h2>
       <div className="w-full h-auto grid grid-cols-1 gap-4 lg:gap-0 lg:grid-cols-2 grid-rows-1">
-        <div className="flex gap-6 justify-center items-center">
+        <div className="flex gap-6 flex-col order-2 md:order-1 md:flex-row justify-center items-center">
           {arr?.map((card) => {
             return (
               <HowItWorksCard
@@ -51,7 +51,7 @@ const HowItWorks = () => {
         <img
           src={HowItWorksMockup}
           alt="how-it-works-mockup"
-          className="order-2"
+          className="order-1 lg:order-2"
         />
       </div>
     </div>

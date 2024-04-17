@@ -11,7 +11,7 @@ const HowItWorksCard = ({ title, icon, white_icon, description }) => {
       onMouseOut={() => {
         setImage(icon);
       }}
-      className="w-[297px] h-[257px] group hover:bg-[#0089FB] flex flex-col gap-2 p-5 justify-start items-start bg-white rounded-3xl shadow-md"
+      className="w-full md:w-[297px] h-[257px] group hover:bg-[#0089FB] flex flex-col gap-2 p-5 justify-start items-start bg-white rounded-3xl shadow-md"
     >
       <span className="w-[70px] h-[70px] rounded-full flex items-center justify-center group-hover:bg-[#FFFFFF]/[0.15] bg-[#0089FB]/[0.05]">
         <img src={image} alt="icon" />

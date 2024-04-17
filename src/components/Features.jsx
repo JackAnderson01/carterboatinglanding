@@ -6,7 +6,7 @@ const Features = () => {
   return (
     <div
       id="features"
-      className="w-full h-auto flex flex-col gap-12 justify-start items-start px-6 md:px-8 lg:px-28 pb-6 lg:py-20"
+      className="w-full h-auto flex flex-col gap-12 justify-start items-start px-6 md:px-8 lg:px-20 xl:px-28 pb-6 lg:py-20"
     >
       <div className="w-full flex flex-col gap-4 lg:gap-0 lg:flex-row justify-between lg:items-end h-auto">
         <div className="w-auto flex flex-col justify-start items-start gap-2">
