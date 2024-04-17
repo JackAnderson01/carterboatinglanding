@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { Logo } from "../assets/export";
 import { CiMenuFries } from "react-icons/ci";
 const Navbar = () => {
-  const [openNav, setOpenNav] = useState("/");
+  const [openNav, setOpenNav] = useState(false);
   const handleClick = (id) => {
     const element = document.getElementById(id);
     if (element) {
