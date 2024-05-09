@@ -4,6 +4,7 @@ import { FaTwitter } from "react-icons/fa";
 import { FaLinkedinIn } from "react-icons/fa";
 import { FooterLogo } from "../assets/export";
 import { Link } from "react-router-dom";
+import { FaInstagram } from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -35,6 +36,13 @@ const Footer = () => {
             >
               <FaLinkedinIn className="w-5 h-5" />
             </Link>
+            <Link
+              to="https://www.instagram.com/carterboating/"
+              target="_blank"
+              className="w-11 h-11 border-[1px] border-black rounded-full flex justify-center items-center"
+            >
+              <FaInstagram className="w-5 h-5" />
+            </Link>
           </div>
         </div>
         <div className="col-span-12 md:col-span-4 flex flex-col items-start lg:items-end gap-y-4">
@@ -42,7 +50,7 @@ const Footer = () => {
             We’re always happy to help.
           </p>
           <a
-            href="mailto:info@mymedicaljourney.com"
+            href="mailto:info@carterboating.com"
             className={`text-sm text-black/[0.7] font-light leading-[16.17px]`}
           >
             info@carterboating.com

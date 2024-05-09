@@ -2,6 +2,7 @@ import React from "react";
 import { MdLocationOn } from "react-icons/md";
 import { IoMail } from "react-icons/io5";
 import { BiSolidPhoneCall } from "react-icons/bi";
+import { Link } from "react-router-dom";
 
 const ContactUs = () => {
   return (
@@ -24,7 +25,7 @@ const ContactUs = () => {
             <div className="flex items-center gap-x-2">
               <MdLocationOn className="text-white w-5 h-5" />
               <span className="text-[#C6C6C6] text-sm font-normal leading-[21px]">
-                1234 Elm Street Springfield, Anytown, USA
+                1660-1 Norman Park dr. Tallahassee, Fl 32304
               </span>
             </div>
           </div>
@@ -32,9 +33,9 @@ const ContactUs = () => {
             <p className="text-base font-medium text-white">Email</p>
             <div className="flex items-center gap-x-2">
               <IoMail className="text-white w-5 h-5" />
-              <span className="text-[#C6C6C6] text-sm font-normal leading-[21px]">
-                hello@carterboating.com
-              </span>
+              <Link to="mailto:carterboatingapp@gmail.com" className="text-[#C6C6C6] text-sm font-normal leading-[21px]">
+                carterboatingapp@gmail.com
+              </Link>
             </div>
           </div>
           <div className="flex flex-col gap-y-2">
@@ -42,7 +43,7 @@ const ContactUs = () => {
             <div className="flex items-center gap-x-2">
               <BiSolidPhoneCall className="text-white w-5 h-5" />
               <span className="text-[#C6C6C6] text-sm font-normal leading-[21px]">
-                123-456-7890
+                850-284-1746
               </span>
             </div>
           </div>
