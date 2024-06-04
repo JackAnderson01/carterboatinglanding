@@ -53,7 +53,7 @@ const Footer = () => {
             href="mailto:info@carterboating.com"
             className={`text-sm text-black/[0.7] font-light leading-[16.17px]`}
           >
-            info@carterboating.com
+            carterboatingapp@gmail.com
           </a>
         </div>
       </div>
@@ -62,9 +62,21 @@ const Footer = () => {
         <p className="text-sm font-light leading-[16.17px] text-center">
           Copyright © 2024 Carterboating. All rights reserved.
         </p>
-        <p className="text-xs text-gray-600 font-light leading-[16.17px]">
-          Terms of Services | Privacy Policy | FAQ
-        </p>
+        <div>
+          <Link
+            to="/"
+            className="text-xs text-gray-600 font-light leading-[16.17px]"
+          >
+            Terms of Services |{" "}
+          </Link>
+          <Link
+            to="/"
+            className="text-xs text-gray-600 font-light leading-[16.17px]"
+          >
+            Privacy Policy
+          </Link>
+          {/* Terms of Services | Privacy Policy */}
+        </div>
       </div>
     </div>
   );

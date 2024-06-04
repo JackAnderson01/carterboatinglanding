@@ -21,13 +21,13 @@ const Features = () => {
             Carter Boating App!{" "}
           </h2>
         </div>
-        <div className="w-full lg:w-1/3 flex gap-3 justify-start items-center">
+        {/* <div className="w-full lg:w-1/3 flex gap-3 justify-start items-center">
           <span className="h-10 w-[2px] bg-[#0089FB]" />
           <span className="text-sm text-[#757474] font-normal">
             Lorem Ipsum has been the industry's standard dummy text ever since
             the 1500s, when an unknown printer took
           </span>
-        </div>
+        </div> */}
       </div>
       <div className="w-full h-auto grid gap-5 grid-cols-2 lg:grid-cols-4 grid-rows-1">
         {featuresArr?.map((feature, key) => {
