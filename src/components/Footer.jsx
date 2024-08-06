@@ -63,18 +63,27 @@ const Footer = () => {
           Copyright © 2024 Carterboating. All rights reserved.
         </p>
         <div>
-          <Link
-            to="/"
+          {/* <Link
+            to="/terms-conditions"
             className="text-xs text-gray-600 font-light leading-[16.17px]"
           >
             Terms of Services |{" "}
           </Link>
           <Link
-            to="/"
+            to="/privacy-policy"
             className="text-xs text-gray-600 font-light leading-[16.17px]"
           >
-            Privacy Policy
+            Privacy Policy |{" "}
           </Link>
+          <Link
+            to="/cookie-policy"
+            className="text-xs text-gray-600 font-light leading-[16.17px]"
+          >
+            Cookie Policy
+          </Link> */}
+          <a className="text-xs text-gray-600" href="/terms-conditions" target="_blank">Terms of Services |{" "}</a>
+          <a className="text-xs text-gray-600" href="/privacy-policy" target="_blank">Privacy Policy |{" "}</a>
+          <a className="text-xs text-gray-600" href="/cookie-policy" target="_blank">Cookie Policy</a>
           {/* Terms of Services | Privacy Policy */}
         </div>
       </div>
