@@ -24,6 +24,9 @@ const Hero = () => {
           <br />
           convenience. Discover how our platform revolutionizes
           <br /> the boat rental experience for both renters and listers.
+          <br />
+          Disclaimer: The phone number used to create an account on either the Lister or Renter interface can't be used on the other interface.
+
         </span>
 
         <img src={HeroMockup} alt="hero-mockup" />
