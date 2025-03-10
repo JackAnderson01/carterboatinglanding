@@ -26,8 +26,8 @@ const Hero = () => {
           <br /> the boat rental experience for both renters and listers.
           <br />
           <span className="text-xs lg:text-center font-normal text-[#E6E6E6] tracking-wider">
-             <span className="text-xs lg:text-center font-normal text-red-500 tracking-wider">
-          Disclaimer: </span> The phone number used to create an account on either the <br /> Lister or Renter interface can't be used on the other interface.
+             <span className="text-xs lg:text-center font-medium text-red-500 tracking-wider">
+          Disclaimer: </span> Same phone number can't be used for both Lister and Renter accounts.
             </span>
 
         </span>
