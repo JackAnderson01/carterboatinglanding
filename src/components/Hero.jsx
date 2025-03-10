@@ -25,7 +25,7 @@ const Hero = () => {
           convenience. Discover how our platform revolutionizes
           <br /> the boat rental experience for both renters and listers.
           <br />
-          <span className="text-xs lg:text-center font-normal text-[#E6E6E6] tracking-wider">
+          <span className="text-[10px] mt-1 lg:text-center font-normal text-[#E6E6E6] tracking-wider">
              <span className="text-xs lg:text-center font-medium text-red-500 tracking-wider">
           Disclaimer: </span> Same phone number can't be used for both Lister and Renter accounts.
             </span>
